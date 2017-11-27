@@ -7,7 +7,7 @@ I wrote this Sketch Plugin to make designing on an 8 point grid easier by provid
 
 ## Installation
 
-Install by downloading the latest release and double clicking it in Finder.
+Install by downloading [the latest release](https://github.com/simonwuyts/sketch-round-to-8/releases) and double clicking it in Finder.
 
 ## TODO
 
