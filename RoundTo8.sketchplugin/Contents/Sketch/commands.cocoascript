@@ -1,0 +1,35 @@
+var roundSize = context => {
+  const layer = context.selection[0];
+  let width = layer.frame().width();
+  let height = layer.frame().height();
+
+  if (width % 8 !== 0) {
+    width = Math.round(width / 8) * 8;
+  }
+
+  if (height % 8 !== 0) {
+    height = Math.round(height / 8) * 8;
+  }
+
+  layer.frame().setWidth(width);
+  layer.frame().setHeight(height);
+  context.document.reloadInspector();
+};
+
+var roundPosition = context => {
+  const layer = context.selection[0];
+  let posX = layer.absoluteRect().rulerX();
+  let posY = layer.absoluteRect().rulerY();
+  
+  if (posX % 8 !== 0) {
+    posX = Math.round(posX / 8) * 8;
+  }
+
+  if (posY % 8 !== 0) {
+    posY = Math.round(posY / 8) * 8;
+  }
+  
+  layer.absoluteRect().setRulerX(posX);
+  layer.absoluteRect().setRulerY(posY);
+  context.document.reloadInspector();
+};

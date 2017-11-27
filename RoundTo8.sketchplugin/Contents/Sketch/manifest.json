@@ -1,0 +1,33 @@
+{
+  "name" : "Round to 8",
+  "description": "Round the selected layer's size or position to multiples of 8.",
+  "version": "1.0",
+  "author": "Simon Wuyts",
+  "authorEmail": "hi@simonwuyts.com",
+  "commands" : [
+    {
+      "script" : "commands.cocoascript",
+      "handler": "roundSize",
+      "shortcut" : "ctrl e",
+      "name" : "Round Size to 8",
+      "identifier" : "roundSize",
+      "description": "Round layer size to multiples of 8.",
+      "icon": "icon.png"
+    },
+    {
+      "script" : "commands.cocoascript",
+      "handler": "roundPosition",
+      "shortcut" : "ctrl h",
+      "name" : "Round Position to 8",
+      "identifier" : "roundPosition",
+      "description": "Round layer size to multiples of 8.",
+      "icon": "icon.png"
+    }
+  ],
+  "menu" : {
+    "items": [
+      "roundSize",
+      "roundPosition"
+    ]
+  }
+}
