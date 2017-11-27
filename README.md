@@ -1,4 +1,4 @@
-<h1><img src="icon.png" style="display: inline-block; margin-right: 10px;" height="32" width="32"> Round to 8 Sketch Plugin</h1>
+# Round to :8ball: Sketch Plugin
 
 I wrote this Sketch Plugin to make designing on an 8 point grid easier by providing two quick actions:
 
