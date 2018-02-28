@@ -8,7 +8,7 @@
     {
       "script" : "commands.cocoascript",
       "handler": "roundSize",
-      "shortcut" : "ctrl e",
+      "shortcut" : "ctrl u",
       "name" : "Round Size to 8",
       "identifier" : "roundSize",
       "description": "Round layer size to multiples of 8.",
